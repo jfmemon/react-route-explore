@@ -11,9 +11,9 @@ const Post = ({ post }) => {
         <div className='post'>
             <h3>{title}</h3>
             <p><small>{body}</small></p>
-            <Link to={`/post/${id}`}>
+            {/* <Link to={`/post/${id}`}>
                 <button>Show Details</button>
-            </Link>
+            </Link> */}
             <button onClick={getNavigate}>See Details</button>
         </div>
     );
